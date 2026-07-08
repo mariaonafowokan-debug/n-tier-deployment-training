@@ -46,4 +46,4 @@ sudo systemctl enable mongod #To sucessfully enable
 
 sudo systemctl is-enabled mongod #To check it is enabled
 
-sudo systemctl status mongod #Checking the status to be sure
+# sudo systemctl status mongod #Checking the status to be sure

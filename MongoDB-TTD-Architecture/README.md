@@ -1,4 +1,4 @@
-# MongoDB Notes: Two-tier Deployment +Architecture
+# MongoDB Notes: Two-tier Deployment + Architecture
 
 ---
 
@@ -140,6 +140,8 @@ Check the status of all system services:
 ```bash
 sudo systemctl status
 ```
+![MongoDB_enabled](Images/MongoDB_enabled.jpeg)
+
 
 ---
 
@@ -197,3 +199,5 @@ sudo systemctl status mongod
 ```
 
 - MongoDB provides **persistent storage**, allowing application data to survive restarts.
+
+[provision mongodb script](prov-db.sh)
