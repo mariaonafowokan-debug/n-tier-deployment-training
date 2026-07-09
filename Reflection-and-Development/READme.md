@@ -6,8 +6,8 @@
 |Ranking      | Challenge                    | Solved / Ongoing       | Solution / Development Plan           |
 |---------------------|------------------------------------------------|-----------------------------------|-----------------------------------|
 | 1           | Scripting with Python |  **Ongoing**           | Revisiting the python recorded sessions and the Teachable course on python fundamentals and python OOP
-| 2           | Consolidating my understanding of APIs, HTTP                |  **Solved**  *(always room for improvement)*          | Revisisted the Word revision guide I made on that included definitions, methods, architectures like REST API
-| 3           | Git and Github     | **Ongoing**          |  Completing the Git training on Teachable in my own time
+| 2           | Git and Github     | **Ongoing**          |  Completing the Git training on Teachable in my own time
+| 3           | Consolidating my understanding of APIs, HTTP                |  **Solved**  *(always room for improvement)*          | Revisisted the Word revision guide I made on that included definitions, methods, architectures like REST API
 
 
 
