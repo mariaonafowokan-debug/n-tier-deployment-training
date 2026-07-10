@@ -56,6 +56,7 @@ Containerisation is generally faster and uses fewer resources, but for this proj
 ---
 
 ## Architecture
+![Load balancer traffic visualization](Images/architected-flowchart-visualizing-load-balancer-traffic.png)
 
 The architecture consists of:
 
