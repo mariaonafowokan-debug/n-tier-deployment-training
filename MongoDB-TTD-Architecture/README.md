@@ -201,3 +201,5 @@ sudo systemctl status mongod
 - MongoDB provides **persistent storage**, allowing application data to survive restarts.
 
 [provision mongodb script](prov-db.sh)
+
+
