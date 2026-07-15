@@ -5,6 +5,22 @@
 This setup builds a custom 2-tier VPC on AWS to host a Tic-Tac-Toe app, separating 
 the **public-facing app server** from a **private database server** that has no direct 
 internet access.
+- [Two-Tier VPC Architecture Overview](#two-tier-vpc-architecture-overview)
+  - [Overview](#overview)
+  - [Custom VPC](#custom-vpc)
+  - [Components](#components)
+  - [Architecture:](#architecture)
+  - [Key Security Notes](#key-security-notes)
+- [1. Creating a VPC](#1-creating-a-vpc)
+- [2. Create the public and private subnets](#2-create-the-public-and-private-subnets)
+  - [a) Public subnet:](#a-public-subnet)
+  - [b) Private subnet:](#b-private-subnet)
+- [3. Create the internet gateway \& attach to the VPC](#3-create-the-internet-gateway--attach-to-the-vpc)
+  - [a) Attaching the Internet gateway to the VPC](#a-attaching-the-internet-gateway-to-the-vpc)
+- [4. Create public route table](#4-create-public-route-table)
+- [5. Create database VM](#5-create-database-vm)
+- [6. Create app VM](#6-create-app-vm)
+  - [Reflection](#reflection)
 
 ## Custom VPC
 A custom VPC is your own private network inside AWS. Unlike the default VPC (which comes pre-built for everyone, which we used for previous instances), you design it yourself. You pick the IP range, create your own subnets, and decide which ones are public (with internet access for app) and which are private (isolated, like for a database).
@@ -66,7 +82,7 @@ A custom VPC is your own private network inside AWS. Unlike the default VPC (whi
 6. Type the IPv4 subnet CIDR block: `10.0.2.0/24`
 
 > **Note:** *The first 24 bits (first 3 segements) will start with 10.0.2 and cannot be changed. Only the last segment (which is the last 8 bits can be changed.)*
-
+.
 ## b) Private subnet:
 
 1. Click `add new subnet` at the bottom of the page
