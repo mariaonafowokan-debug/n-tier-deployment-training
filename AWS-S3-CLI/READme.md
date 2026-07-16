@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide explains how to manage Amazon S3 from an Ubuntu EC2 instance using:
+This explains how to manage Amazon S3 from an Ubuntu EC2 instance using:
 
 - the **AWS Command Line Interface (AWS CLI)**
 - the **AWS SDK for Python, Boto3**
